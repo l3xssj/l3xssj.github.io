@@ -17,7 +17,7 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Habilidades y conocimientos | Lex" />
   <meta name="twitter:description" content="Conocimientos de Lex por categorías: informática y sistemas, desarrollo web, comunidades digitales, vídeo e imagen, competencias e idiomas." />
-  <script src="assets/js/boot.js"></script>
+  <script>(function(r,s){r.classList.add("js");try{s=localStorage.getItem("l3x-theme")}catch(e){}r.dataset.theme=s==="light"?"light":"dark";try{if(!sessionStorage.getItem("l3x")){r.classList.add("is-intro");sessionStorage.setItem("l3x","1")}}catch(e){}})(document.documentElement)</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -25,7 +25,25 @@
 </head>
 <body id="top" data-page="habilidades">
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
-  <script src="assets/js/layout.js"></script>
+  <div class="curtain" aria-hidden="true"><span class="curtain-label">Habilidades</span></div>
+  <div class="loader" aria-hidden="true">
+    <span class="ld-corner tl"></span><span class="ld-corner tr"></span><span class="ld-corner bl"></span><span class="ld-corner br"></span>
+    <span class="ld-tech tl">L3x / Portfolio</span><span class="ld-tech tr">Alex González Martos</span>
+    <span class="ld-tech bl">Informática · Audiovisual</span><span class="ld-tech br">ES / CA / EN B1–B2</span>
+    <div class="ld-center">
+      <div class="ld-mark"><span>L3x</span></div>
+      <p class="ld-init"><i></i>Iniciando entorno</p>
+      <div class="ld-row"><div class="ld-bar"></div><span class="ld-pct"></span></div>
+    </div>
+  </div>
+  <header class="site-header">
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="brand" href="index.html" aria-label="Inicio de Lex"><span class="brand-mark">L3x</span><span class="brand-copy"><strong>Lex</strong><small>Alex González Martos</small></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="main-menu"><li><a href="index.html">Inicio</a></li><li><a href="sobre-l3x.html">Sobre mí</a></li><li><a href="habilidades.html" aria-current="page">Habilidades</a></li><li><a href="formacion.html">Formación</a></li><li><a href="proyectos.html">Proyectos</a></li><li><a href="experiencia.html">Experiencia</a></li><li><a class="nav-cta" href="contacto.html">Contacto</a></li></ul>
+      <button class="theme-toggle" type="button" aria-label="Cambiar a modo claro"><svg viewBox="0 0 24 24" aria-hidden="true"><g class="i-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></g><path class="i-moon" d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></button>
+    </nav>
+  </header>
   <main id="contenido">
     <section class="page-hero section-bleed">
       <div class="container narrow reveal">
@@ -41,8 +59,8 @@
         <article class="skill-row"><div><h2>Desarrollo web</h2><p>Páginas propias que voy construyendo y mejorando, como esta.</p></div><ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Creación y edición de páginas web</li><li>GitHub / GitHub Pages</li></ul></article>
         <article class="skill-row"><div><h2>Comunidades y herramientas digitales</h2><p>Servidores de Discord, bots, automatizaciones y herramientas online.</p></div><ul class="tags"><li>Discord</li><li>Bots</li><li>Herramientas digitales</li><li>Inteligencia artificial</li></ul></article>
         <article class="skill-row"><div><h2>Vídeo, imagen y audio</h2><p>Mi formación en Vídeo Disc-Jockey y Sonido, en La Salle Barceloneta.</p></div><ul class="tags"><li>Edición de vídeo</li><li>Edición de imágenes</li><li>Premiere</li><li>After Effects</li><li>Sony Vegas</li><li>Photoshop</li><li>GIMP</li><li>Audio</li><li>Producción y creación audiovisual</li></ul></article>
-        <article class="skill-row"><div><h2>Competencias</h2><p>Cómo trabajo.</p></div><ul class="tags"><li>Curioso</li><li>Autodidacta</li><li>Resolutivo</li><li>Con iniciativa</li><li>Paciente</li><li>Creativo</li><li>Con ganas de aprender</li></ul></article>
-        <article class="skill-row"><div><h2>Idiomas</h2></div><ul class="tags"><li>Español</li><li>Català</li><li>English B2</li></ul></article>
+        <article class="skill-row"><div><h2>Competencias</h2><p>Cómo trabajo.</p></div><ul class="tags"><li>Curioso</li><li>Autodidacta</li><li>Resolutivo</li><li>Con iniciativa</li><li>Paciente</li><li>Creativo</li><li>Con ganas de aprender</li><li>Trabajo en equipo</li><li>Responsabilidad en el trabajo</li><li>Organización y puntualidad</li></ul></article>
+        <article class="skill-row"><div><h2>Idiomas</h2><p>Según mi CV.</p></div><ul class="tags"><li>Castellano (lengua materna)</li><li>Catalán (lengua materna)</li><li>Inglés · comprensión auditiva B2</li><li>Inglés · comprensión lectora B1</li><li>Inglés · producción oral A2</li><li>Inglés · interacción oral B2</li><li>Inglés · expresión escrita B1</li></ul></article>
         <!-- Para añadir una habilidad: añade un <li> a la lista de su categoría. Para una categoría nueva, duplica un bloque <article class="skill-row"> completo. No se usan niveles ni porcentajes. -->
       </div>
     </section>
@@ -54,6 +72,19 @@
       </div>
     </section>
   </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><strong>L3x</strong><p>Informática, audiovisual y proyectos digitales.</p></div>
+      <nav aria-label="Navegación secundaria">
+        <a href="index.html">Inicio</a><a href="sobre-l3x.html">Sobre mí</a><a href="habilidades.html">Habilidades</a><a href="formacion.html">Formación</a><a href="proyectos.html">Proyectos</a><a href="experiencia.html">Experiencia</a><a href="contacto.html">Contacto</a>
+        <a href="recursos.html">FAQ y recursos</a>
+        <a href="https://www.linkedin.com/in/alex-gonz%C3%A1lez-martos-838162229/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/L3xATM" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:contactol3x@gmail.com">contactol3x@gmail.com</a>
+      </nav>
+    </div>
+    <div class="container footer-base"><span>&copy; <span data-year>2026</span> Lex &middot; Alex González Martos</span><a href="#top">Volver arriba &uarr;</a></div>
+  </footer>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
